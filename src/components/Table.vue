@@ -20,7 +20,7 @@
           <tr v-bind:key="order.name" v-for="order in orders" class="text-sm text-gray-200">
             <td class="py-4">
               <div class="flex gap-4 items-center">
-                <img width="32" :src="`/img/${order.avatar}`" alt="" />
+                <img width="32" :src="`/img/${order.avatar}`" alt="table" />
                 <span> {{ order.name }} </span>
               </div>
             </td>
@@ -48,14 +48,14 @@
   import OptionsIcon from "../icons/options.svg";
   const orders = [
     {
-      avatar: "avatar-1.png",
+      avatar: "usa.jpg",
       name: "AAE IdeaPro",
       menu: "Burger King Halloween Whopper",
       total: "$50",
       status: "completed",
     },
     {
-      avatar: "avatar-2.png",
+      avatar: "nigeria-flag.jpg",
       name: "Robert Braunn",
       menu: "King Whopper Sandwich Hamburger",
       total: "$185",
