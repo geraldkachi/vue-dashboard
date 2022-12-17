@@ -1,7 +1,7 @@
 <template>
     <div class="flex gap-6">
       <div
-        v-for="stat in stats"
+        v-for="stat in stats" v-bind:key="stat.status"
         class="flex flex-col p-4 w-1/3 bg-red-900 rounded-lg gap-y-3"
       >
         <div class="flex items-center gap-x-3">

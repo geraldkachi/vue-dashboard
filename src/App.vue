@@ -5,13 +5,12 @@
       <header>
         <h1 class="text-3xl font-semibold leading-loose text-gray-700">POS System</h1>
       </header>
-      <hr class="border-red-700">
+      <hr class="border-red-700" />
       <Card />
       <Table />
     </main>
     <aside class="flex flex-col gap-y-6 pt-6 pr-6 w-96">
       <RightSide />
-
     </aside>
   </div>
 </template>
